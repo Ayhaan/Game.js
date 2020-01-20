@@ -1,0 +1,61 @@
+body{
+    height: 100%;
+}
+button{
+    padding: 25px;
+    border-radius: 50%;
+    ;
+}
+.display{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 100PX;
+}
+.display2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 500PX;
+    align-items: flex-end;
+}
+#btn1 {
+    background-color: red;
+    position: relative;
+}
+#btn2 {
+    background-color: aqua;
+    position: relative;
+}
+#btn3 {
+    background-color: green;
+    position: relative;
+}
+#btn4 {
+    background-color: blue;
+    position: relative;
+}
+#btn5 {
+    background-color: purple;
+    position: relative;
+}
+
+.j2, .j3, .j4{
+    display: none;
+
+}
+
+.check1, .check6, .check11, .check16{
+    color : red;
+}
+.check2, .check7{
+    color: aqua
+}
+.check3,.check8{
+    color: green
+}
+.check4,.check9{
+    color: blue
+}
+.check5,.check10{
+    color: purple
+}
